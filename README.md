@@ -12,6 +12,7 @@ Plugin του GitHub Copilot για ερωτήματα του τύπου **«τ�
 | `tools/fek.py` | Η λογική για τα ΦΕΚ· χρησιμοποιείται και ως CLI |
 | `com.github.copilot/agents/nomikos-erevnitis.agent.md` | Κύριος ερευνητής: νομική βάση, έλεγχος, απάντηση |
 | `com.github.copilot/agents/elegktis-ischyos.agent.md` | Έλεγχος ισχύος μίας συγκεκριμένης διάταξης |
+| `skills/nomos/` | **Σημείο εισόδου:** οποιαδήποτε νομική ερώτηση, από την αρχή ως το τέλος |
 | `skills/anazitisi-fek/` | Ιεράρχηση πηγών και εντοπισμός ΦΕΚ |
 | `skills/elegxos-tropopoiiseon/` | Έλεγχος τροποποιήσεων και καταργήσεων |
 | `skills/morfi-apantisis/` | Πρότυπο απάντησης |
@@ -46,7 +47,16 @@ copilot plugin install nomos@nomos
 
 ## Χρήση
 
-Επίλεξε τον agent (`/agent` στο CLI ή από τη λίστα agents) και γράψε το ερώτημα. Οι agents του plugin εμφανίζονται με πρόθεμα: `nomos:nomikos-erevnitis` και `nomos:elegktis-ischyos`.
+Ο απλούστερος τρόπος είναι το skill `/nomos`, σε οποιαδήποτε συνεδρία: γράψε την ερώτηση και αυτό κάνει μόνο του όσα χρειάζονται.
+
+```text
+/nomos Τι ισχύει σήμερα για την άδεια πατρότητας;
+/nomos ν. 4624/2019, άρθρο 11, παρ. 6: ισχύει;
+```
+
+Το skill φορτώνεται και αυτόματα, όταν η ερώτηση είναι νομική.
+
+Εναλλακτικά, επίλεξε έναν agent (`/agent` στο CLI ή από τη λίστα agents) και γράψε το ερώτημα. Οι agents του plugin εμφανίζονται με πρόθεμα: `nomos:nomikos-erevnitis` και `nomos:elegktis-ischyos`.
 
 Με τον agent `nomikos-erevnitis`:
 
