@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "nomos": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["${PLUGIN_ROOT}/tools/fek_mcp.py"],
+      "cwd": "${PLUGIN_ROOT}",
+      "env": {
+        "FEK_CACHE": "${PLUGIN_DATA}/fek-cache",
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}

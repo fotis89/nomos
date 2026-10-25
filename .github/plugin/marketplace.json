@@ -1,0 +1,13 @@
+{
+  "name": "nomos",
+  "owner": { "name": "Fotis Karagiorgos" },
+  "metadata": { "description": "Έρευνα ελληνικής νομοθεσίας με επαληθευμένα ΦΕΚ", "version": "1.0.0" },
+  "plugins": [
+    {
+      "name": "nomos",
+      "description": "Agents, skills και MCP server για έρευνα ελληνικής νομοθεσίας με επαληθευμένες παραπομπές σε ΦΕΚ.",
+      "version": "1.0.0",
+      "source": "./"
+    }
+  ]
+}
