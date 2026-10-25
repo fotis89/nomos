@@ -43,6 +43,19 @@ copilot plugin install nomos@nomos
 
 Ενημέρωση: `copilot plugin update nomos`. Απεγκατάσταση: `copilot plugin uninstall nomos`.
 
+Για **αυτόματη ενημέρωση** σε κάθε νέα συνεδρία, πρόσθεσε `"autoUpdate": true` στην καταχώριση του marketplace στο `~/.copilot/settings.json`:
+
+```json
+"extraKnownMarketplaces": {
+  "nomos": {
+    "source": { "source": "github", "repo": "fotis89/nomos" },
+    "autoUpdate": true
+  }
+}
+```
+
+Η αυτόματη ενημέρωση γίνεται σε διαδραστικές συνεδρίες και με `-p`, όχι στις συνεδρίες SDK/server.
+
 Τα εργαλεία `fek_*` είναι εργαλεία MCP: δεν χρειάζονται τερματικό ούτε έγκριση εντολών shell.
 
 ## Χρήση
