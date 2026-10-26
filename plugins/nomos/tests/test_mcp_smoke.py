@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Smoke test του MCP server: python tests/test_mcp_smoke.py (χρειάζεται δίκτυο)."""
+"""Smoke test του MCP server: python plugins/nomos/tests/test_mcp_smoke.py (χρειάζεται δίκτυο)."""
 import json
 import os
 import subprocess

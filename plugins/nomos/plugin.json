@@ -2,11 +2,11 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "nomos",
   "description": "Έρευνα ελληνικής νομοθεσίας («τι ισχύει σήμερα για το Χ») με επαληθευμένες παραπομπές σε ΦΕΚ: agents, skills και MCP server που διαβάζει τα ΦΕΚ από το Εθνικό Τυπογραφείο (search.et.gr).",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Fotis Karagiorgos"
   },
-  "repository": "https://github.com/fotis89/nomos",
+  "repository": "https://github.com/fotis89/pyxida",
   "license": "MIT",
   "keywords": ["greek-law", "fek", "legislation", "nomothesia", "mcp"]
 }

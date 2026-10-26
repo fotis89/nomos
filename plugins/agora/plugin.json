@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agora",
+  "description": "Έρευνα αγοράς: ποιο προϊόν να αγοράσεις (συσκευές, laptops, ηλεκτρονικά) με τιμές Skroutz, Reddit, YouTube, ανεξάρτητα τεστ και σταθμισμένη σύγκριση σε αναφορά HTML.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Fotis Karagiorgos"
+  },
+  "repository": "https://github.com/fotis89/pyxida",
+  "license": "MIT",
+  "keywords": ["product-research", "shopping", "skroutz", "comparison"]
+}

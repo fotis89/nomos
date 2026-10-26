@@ -1,13 +1,19 @@
 {
-  "name": "nomos",
+  "name": "pyxida",
   "owner": { "name": "Fotis Karagiorgos" },
-  "metadata": { "description": "Έρευνα ελληνικής νομοθεσίας με επαληθευμένα ΦΕΚ", "version": "1.1.0" },
+  "metadata": { "description": "Plugins του GitHub Copilot: νομική έρευνα (nomos) και έρευνα αγοράς (agora)", "version": "1.0.0" },
   "plugins": [
     {
       "name": "nomos",
-      "description": "Agents, skills και MCP server για έρευνα ελληνικής νομοθεσίας με επαληθευμένες παραπομπές σε ΦΕΚ.",
-      "version": "1.1.0",
-      "source": "./"
+      "description": "Έρευνα ελληνικής νομοθεσίας («τι ισχύει σήμερα για το Χ») με επαληθευμένες παραπομπές σε ΦΕΚ.",
+      "version": "1.2.0",
+      "source": "./plugins/nomos"
+    },
+    {
+      "name": "agora",
+      "description": "Έρευνα αγοράς: ποιο προϊόν να αγοράσεις, με τιμές Skroutz, κριτικές και σταθμισμένη σύγκριση.",
+      "version": "1.0.0",
+      "source": "./plugins/agora"
     }
   ]
 }
